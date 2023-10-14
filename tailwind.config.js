@@ -17,7 +17,10 @@ module.exports = {
     },
     extend: {
       padding: {
-        '100': '500px',
+        '100': '450px',
+      },
+      height: {
+        '47px': '47px',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
