@@ -11,15 +11,20 @@ const FirstSearch = () => {
           </div>
 
           <input
-            spellcheck="false"
+            spellCheck="false"
             className="pr-5  focus:outline-none"
-            autocomplete="location-search"
+            autoomplete="location-search"
             placeholder="Search city, area or locality"
             value="Pakistan"
           ></input>
 
           <div>
-            <Image src={"/iconArrowDown.svg"} width={"15"} height={"15"} />
+            <Image
+              alt="iconArrowDown"
+              src={"/iconArrowDown.svg"}
+              width={"15"}
+              height={"15"}
+            />
           </div>
         </div>
       </div>
