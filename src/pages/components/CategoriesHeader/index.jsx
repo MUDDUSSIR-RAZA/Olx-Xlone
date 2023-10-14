@@ -11,7 +11,12 @@ const CategoriesHeader = () => {
           </div>
           <div>
             <div>
-              <Image src={"/iconArrowDown.svg"} width={"20"} height={"20"} />
+              <Image
+                alt="iconArrowDown"
+                src={"/iconArrowDown.svg"}
+                width={"20"}
+                height={"20"}
+              />
             </div>
           </div>
         </div>
