@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const AllCategories = () => {
   const Categories = [
@@ -26,11 +27,13 @@ const AllCategories = () => {
 
         <div className="flex flex-wrap">
           {Categories.map((m) => (
-            <div className="mb-6 my-5 mr-20 flex flex-col items-center">
-              <div>
-                <Image src={`/${m}.png`} width={"90"} height={"90"} />
+            <div className="mb-6 my-5 mr-16 flex flex-col items-center" key={m}>
+              <div className="mb-1">
+                <Link href={"#"}>
+                  <Image alt={m} src={`/${m}.png`} width={"90"} height={"90"} />
+                </Link>
               </div>
-              <div className="w-7px text-center">
+              <div className="w-100px text-center">
                 <b>{m}</b>
               </div>
             </div>
