@@ -9,9 +9,8 @@ const inter = Inter({ subsets: ["latin"] });
 export default function UpperHeader() {
   return (
     <>
-      <div className="flex items-center mt-3 h-19">
-        
-        <UpperHeaderOlx/>
+      <div className="flex items-center pl-24 pt-3 bg-headerBg">
+        <UpperHeaderOlx />
 
         <Motor />
 
