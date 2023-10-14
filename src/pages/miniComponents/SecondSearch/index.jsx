@@ -10,8 +10,8 @@ const SecondSearch = () => {
               <div>
                 <input
                   // type="search"
-                  spellcheck="false"
-                  autocomplete="free-text-search"
+                  spellheck="false"
+                  autoComplete="free-text-search"
                   value=""
                   placeholder="Find Cars, Mobile Phones and more..."
                   className="pr-100  focus:outline-none"
