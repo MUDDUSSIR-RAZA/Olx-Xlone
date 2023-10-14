@@ -27,12 +27,14 @@ const LowerHeader = () => {
         <div>
           <button className="relative">
             <Image
+              alt="iconSellCompactBorder"
               src={"/iconSellCompactBorder.svg"}
               width={"90"}
               height={"90"}
             />
             <div className="absolute bottom-2 left-4 flex items-center ">
               <Image
+                alt="iconPlusSell"
                 src={"/iconPlusSell.svg"}
                 width={"15"}
                 height={"15"}
