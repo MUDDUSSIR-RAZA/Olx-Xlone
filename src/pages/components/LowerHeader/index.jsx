@@ -6,11 +6,11 @@ import Image from "next/image";
 const LowerHeader = () => {
   return (
     <>
-      <div className="py-5 flex items-center">
+      <div className="py-5 flex items-center pl-24 bg-headerBg">
         <div className="mr-5">
           <LowerHeaderOlx />
         </div>
-        <div className=" ml-5  mr-5 ">
+        <div className=" ml-4  mr-5 ">
           <FirstSearch />
         </div>
 
