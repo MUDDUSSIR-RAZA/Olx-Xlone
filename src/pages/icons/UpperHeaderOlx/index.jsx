@@ -5,7 +5,7 @@ const UpperHeaderOlx = () => {
     <>
       <Link href={"#"}>
         <svg
-          height="20"
+          height="18"
           viewBox="0 0 36.289 20.768"
           alt="Logo"
           className="mr-10 fill-olx"
