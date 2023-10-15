@@ -5,9 +5,10 @@ const UpperFooter = () => {
   return (
     <>
       <div className="w-full h-auto bg-grey">
-        <div className="w-4/5 h-4/5 my-auto mx-auto flex">
-          <div className="my-6 mx-8 w-96">
-            <div className="text-dark font-semibold text-sm">
+        <hr className="text-dark" />
+        <div className="w-11/12 h-4/5 mx-auto flex bg-grey">
+          <div className="mx-8 mt-6 mb-40 w-96">
+            <div className="text-dark font-black text-sm">
               POPULAR CATEGORIES
             </div>
             <br />
@@ -27,8 +28,10 @@ const UpperFooter = () => {
             </div>
           </div>
 
-          <div  className="my-6 mx-8 w-96">
-            <div className="text-dark font-semibold text-sm">TRENDING SEARCHES</div>
+          <div className="mx-8 mt-6 mb-40 w-96">
+            <div className="text-dark font-semibold text-sm">
+              TRENDING SEARCHES
+            </div>
             <br />
             <div>
               <div className="text-xs mb-1">
@@ -46,7 +49,7 @@ const UpperFooter = () => {
             </div>
           </div>
 
-          <div  className="my-6 mx-8 w-96">
+          <div className="mx-8 mt-6 mb-40 w-96">
             <div className="text-dark font-semibold text-sm">ABOUT US</div>
             <br />
             <div>
@@ -65,7 +68,7 @@ const UpperFooter = () => {
             </div>
           </div>
 
-          <div  className="my-6 mx-8 w-96">
+          <div className="mx-8 mt-6 mb-40 w-96">
             <div className="text-dark font-semibold text-sm">OLX</div>
             <br />
             <div>
@@ -84,71 +87,77 @@ const UpperFooter = () => {
             </div>
           </div>
 
-          <div  className="my-6 mx-8 w-96">
+          <div className="mx-8 mt-6 mb-40 w-400px">
             <div>
-              <div>FOLLOW US</div>
+              <div className="font-extrabold text-sm">FOLLOW US</div>
               <div className="flex">
-                <div className=" mr-3">
+                <div className="w-8 h-8 flex justify-start items-center ">
                   <Image
                     alt={"iconTwitter"}
                     src={`/iconTwitter.svg`}
-                    width={"84"}
-                    height={"28"}
+                    width={"24"}
+                    height={"24"}
+                    className="min-w-24px flex justify-center items-center "
                   />
                 </div>
-                <div className=" mr-3">
+                <div className="w-8 h-8 flex justify-start items-center ">
                   <Image
                     alt={"iconFacebook"}
-                    src={`/iconFacebook.svg`} 
-                    width={"84"}
-                    height={"28"}
+                    src={`/iconFacebook.svg`}
+                    width={"24"}
+                    height={"24"}
+                    className="min-w-24px flex justify-center items-center "
                   />
                 </div>
-                <div className=" mr-3">
+                <div className="w-8 h-8 flex justify-start items-center ">
                   <Image
                     alt={"iconYoutube"}
-                    src={`/iconYoutube.svg`} 
-                    width={"84"}
-                    height={"28"}
+                    src={`/iconYoutube.svg`}
+                    width={"24"}
+                    height={"24"}
+                    className="min-w-24px flex justify-center items-center "
                   />
                 </div>
-                <div className=" mr-3">
+                <div className="w-8 h-8 flex justify-start items-center ">
                   <Image
                     alt={"iconInstagram"}
-                    src={`/iconInstagram.svg`} 
-                    width={"84"}
-                    height={"28"}
+                    src={`/iconInstagram.svg`}
+                    width={"24"}
+                    height={"24"}
+                    className="min-w-24px flex justify-center items-center "
                   />
                 </div>
               </div>
             </div>
 
             <br />
-            <br />
 
             <div className="flex">
-              <div className=" mr-3">
+              <div className="w-24 h-12 flex justify-start items-center ">
                 <Image
                   alt={"iconAppStore"}
                   src={`/iconAppStore.svg`}
-                  width={"128"}
-                  height={"40"}
+                  width={"84"}
+                  height={"28"}
+                  className="min-w-24px flex justify-center items-center "
                 />
               </div>
-              <div className=" mr-3">
+              <div className="w-24 h-12 flex justify-start items-center ">
                 <Image
                   alt={"iconAppStore"}
                   src={`/iconGooglePlay.svg`}
-                  width={"128"}
-                  height={"40"}
+                  width={"84"}
+                  height={"28"}
+                  // className="min-w-90px min-h-90px"
                 />
               </div>
-              <div className=" mr-3">
+              <div className="w-24 h-12 flex justify-start items-center ">  
                 <Image
                   alt={"iconAppGallery"}
                   src={`/iconAppGallery.svg`}
-                  width={"128"}
-                  height={"40"}
+                  width={"84"}
+                  height={"28"}
+                  // className="min-w-90px min-h-90px"
                 />
               </div>
             </div>
