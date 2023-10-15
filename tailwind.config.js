@@ -14,10 +14,18 @@ module.exports = {
       headerBg: "#f7f8f8",
       white: "#ffffff",
       input: "#00e9df",
-      bottomImage :"#f7faf9",
-      grey:"#eaeeef",
+      bottomImage: "#f7faf9",
+      grey: "#eaeeef",
     },
     extend: {
+      minWidth: {
+        "24px": "24px",
+        "90px": "90px",
+      },
+      minHeight: {
+        "24px": "24px",
+        "90px": "90px",
+      },
       fontFamily: {
         customFont: ["Roboto", "Nunito", "sans-serif"],
       },
@@ -29,6 +37,7 @@ module.exports = {
       },
       width: {
         "100px": "100px",
+        "400px": "400px",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
