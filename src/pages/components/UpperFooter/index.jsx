@@ -7,7 +7,7 @@ const UpperFooter = () => {
       <div className="w-full h-auto bg-grey">
         <hr className="text-dark" />
         <div className="w-11/12 h-4/5 mx-auto flex bg-grey">
-          <div className="mx-8 mt-6 mb-40 w-96">
+          <div className="mx-8 mt-6 mb-14 w-96">
             <div className="text-dark font-black text-sm">
               POPULAR CATEGORIES
             </div>
@@ -28,7 +28,7 @@ const UpperFooter = () => {
             </div>
           </div>
 
-          <div className="mx-8 mt-6 mb-40 w-96">
+          <div className="mx-8 mt-6 mb-12 w-96">
             <div className="text-dark font-semibold text-sm">
               TRENDING SEARCHES
             </div>
@@ -49,7 +49,7 @@ const UpperFooter = () => {
             </div>
           </div>
 
-          <div className="mx-8 mt-6 mb-40 w-96">
+          <div className="mx-8 mt-6 mb-12 w-96">
             <div className="text-dark font-semibold text-sm">ABOUT US</div>
             <br />
             <div>
@@ -68,7 +68,7 @@ const UpperFooter = () => {
             </div>
           </div>
 
-          <div className="mx-8 mt-6 mb-40 w-96">
+          <div className="mx-8 mt-6 mb-12 w-96">
             <div className="text-dark font-semibold text-sm">OLX</div>
             <br />
             <div>
@@ -87,7 +87,7 @@ const UpperFooter = () => {
             </div>
           </div>
 
-          <div className="mx-8 mt-6 mb-40 w-400px">
+          <div className="mx-8 mt-6 mb-12 w-400px">
             <div>
               <div className="font-extrabold text-sm">FOLLOW US</div>
               <div className="flex">
@@ -151,7 +151,7 @@ const UpperFooter = () => {
                   // className="min-w-90px min-h-90px"
                 />
               </div>
-              <div className="w-24 h-12 flex justify-start items-center ">  
+              <div className="w-24 h-12 flex justify-start items-center ">
                 <Image
                   alt={"iconAppGallery"}
                   src={`/iconAppGallery.svg`}
