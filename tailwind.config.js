@@ -15,6 +15,7 @@ module.exports = {
       white: "#ffffff",
       input: "#00e9df",
       bottomImage :"#f7faf9",
+      grey:"#eaeeef",
     },
     extend: {
       fontFamily: {
