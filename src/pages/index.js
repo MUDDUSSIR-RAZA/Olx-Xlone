@@ -1,27 +1,28 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import UpperHeader from './components/UpperHeader'
-import LowerHeader from './components/LowerHeader'
-import CategoriesHeader from './components/CategoriesHeader'
-import SwipeBanner from './components/SwipeBanner'
-import AllCategories from './components/AllCategories'
-import BottomImage from './components/BottomImage'
-import UpperFooter from './components/UpperFooter'
+import { Inter } from "next/font/google";
+import SwipeBanner from "./components/SwipeBanner";
+import AllCategories from "./components/AllCategories";
+import BottomImage from "./components/BottomImage";
+import UpperFooter from "./components/UpperFooter";
+import LowerFooter from "./components/LowerFooter";
+import FullHeader from "./combinedComponents/FullHeader";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-   <>
-   <div>
-    <UpperHeader />
-    <LowerHeader />
-    <CategoriesHeader />
-    <SwipeBanner />
-    <AllCategories />
-    <BottomImage />
-    <UpperFooter />
-   </div>
-   </>
-  )
+    <>
+      <div>
+        <div>
+          <FullHeader />
+        </div>
+        <div className="mt-52">
+          <SwipeBanner />
+          <AllCategories />
+          <BottomImage />
+          <UpperFooter />
+          <LowerFooter />
+        </div>
+      </div>
+    </>
+  );
 }
