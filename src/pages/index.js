@@ -6,6 +6,7 @@ import CategoriesHeader from './components/CategoriesHeader'
 import SwipeBanner from './components/SwipeBanner'
 import AllCategories from './components/AllCategories'
 import BottomImage from './components/BottomImage'
+import UpperFooter from './components/UpperFooter'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function Home() {
     <SwipeBanner />
     <AllCategories />
     <BottomImage />
+    <UpperFooter />
    </div>
    </>
   )
