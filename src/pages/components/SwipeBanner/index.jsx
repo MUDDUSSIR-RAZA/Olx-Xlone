@@ -15,7 +15,7 @@ function SwipeBanner() {
 
   return (
     <>
-      <div>
+      <div className="w-full overflow-hidden">
         <div
           style={{
             display: "flex",
