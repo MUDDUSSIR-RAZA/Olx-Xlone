@@ -15,7 +15,9 @@ const BottomImage = () => {
           </div>
 
           <div className="w-96 mx-auto my-auto">
-            <div className="text-dark text-3xl font-extrabold">TRY THE OLX APP</div>
+            <div className="text-dark text-3xl font-extrabold">
+              TRY THE OLX APP
+            </div>
             <br />
             <div className="text-1xl">
               Buy, sell and find just about anything using the app on your
@@ -34,33 +36,33 @@ const BottomImage = () => {
                 <div className=" mr-3">
                   <Image
                     alt={"iconTwitter"}
-                    src={`/iconTwitter.svg`}
-                    width={"24"}
-                    height={"24"}
+                    src={`/iconTwitter.svg`} 
+                    width={"84"}
+                    height={"28"}
                   />
                 </div>
                 <div className=" mr-3">
                   <Image
                     alt={"iconFacebook"}
-                    src={`/iconFacebook.svg`}
-                    width={"24"}
-                    height={"24"}
+                    src={`/iconFacebook.svg`} 
+                    width={"84"}
+                    height={"28"}
                   />
                 </div>
                 <div className=" mr-3">
                   <Image
                     alt={"iconYoutube"}
-                    src={`/iconYoutube.svg`}
-                    width={"24"}
-                    height={"24"}
+                    src={`/iconYoutube.svg`} 
+                    width={"84"}
+                    height={"28"}
                   />
                 </div>
                 <div className=" mr-3">
                   <Image
                     alt={"iconInstagram"}
-                    src={`/iconInstagram.svg`}
-                    width={"24"}
-                    height={"24"}
+                    src={`/iconInstagram.svg`} 
+                    width={"84"}
+                    height={"28"}
                   />
                 </div>
               </div>
@@ -69,8 +71,9 @@ const BottomImage = () => {
             <br />
             <br /> */}
 
-            <div className="font-semibold text-1xl mb-3">GET YOUR APP TODAY</div>
-            
+            <div className="font-semibold text-1xl mb-3">
+              GET YOUR APP TODAY
+            </div>
 
             <div className="flex">
               <div className=" mr-3">
