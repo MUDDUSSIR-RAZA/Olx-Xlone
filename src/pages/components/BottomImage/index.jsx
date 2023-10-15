@@ -4,7 +4,7 @@ const BottomImage = () => {
   return (
     <>
       <div className="w-full bg-bottomImage">
-        <div className="w-4/5 mx-auto flex">
+        <div className="w-11/12 mx-auto flex justify-between">
           <div>
             <Image
               alt={"olxMobileApp"}
@@ -15,61 +15,21 @@ const BottomImage = () => {
           </div>
 
           <div className="w-96 mx-auto my-auto">
-            <div className="text-dark text-3xl font-extrabold">
+            <div className="text-dark text-3xl font-black">
               TRY THE OLX APP
             </div>
             <br />
-            <div className="text-1xl">
+            <div className="text-xl">
               Buy, sell and find just about anything using the app on your
               mobile.
             </div>
           </div>
 
-          <div className="my-auto mx-5">
-            <div className="border h-40"></div>
+          <div className="my-auto">
+            <div className="border h-32"></div>
           </div>
 
-          <div className="my-auto mx-auto">
-            {/* <div>
-              <div>FOLLOW US</div>
-              <div className="flex">
-                <div className=" mr-3">
-                  <Image
-                    alt={"iconTwitter"}
-                    src={`/iconTwitter.svg`} 
-                    width={"84"}
-                    height={"28"}
-                  />
-                </div>
-                <div className=" mr-3">
-                  <Image
-                    alt={"iconFacebook"}
-                    src={`/iconFacebook.svg`} 
-                    width={"84"}
-                    height={"28"}
-                  />
-                </div>
-                <div className=" mr-3">
-                  <Image
-                    alt={"iconYoutube"}
-                    src={`/iconYoutube.svg`} 
-                    width={"84"}
-                    height={"28"}
-                  />
-                </div>
-                <div className=" mr-3">
-                  <Image
-                    alt={"iconInstagram"}
-                    src={`/iconInstagram.svg`} 
-                    width={"84"}
-                    height={"28"}
-                  />
-                </div>
-              </div>
-            </div>
-
-            <br />
-            <br /> */}
+          <div className="my-auto ml-7">
 
             <div className="font-semibold text-1xl mb-3">
               GET YOUR APP TODAY
