@@ -14,6 +14,7 @@ module.exports = {
       headerBg: "#f7f8f8",
       white: "#ffffff",
       input: "#00e9df",
+      bottomImage :"#f7faf9",
     },
     extend: {
       fontFamily: {
