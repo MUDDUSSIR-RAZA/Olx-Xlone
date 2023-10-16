@@ -16,6 +16,8 @@ module.exports = {
       input: "#00e9df",
       bottomImage: "#f7faf9",
       grey: "#eaeeef",
+      lightBlue:"#3a77ff",
+      text :"#316468",
     },
     extend: {
       minWidth: {
@@ -38,6 +40,7 @@ module.exports = {
       width: {
         "100px": "100px",
         "400px": "400px",
+        "87%" :"87%",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
