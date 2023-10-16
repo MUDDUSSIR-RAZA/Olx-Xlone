@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useState, useEffect } from "react";
 
 function SwipeBanner() {
@@ -33,7 +34,7 @@ function SwipeBanner() {
             }}
           >
             <div>
-              <a
+              <Link
                 href="https://onelink.to/6p6zqr"
                 title="Sell it, Search it, Buy it"
                 rel="noopener noreferrer"
@@ -53,7 +54,7 @@ function SwipeBanner() {
             }}
           >
             <div>
-              <a
+              <Link
                 href="https://onelink.to/6p6zqr"
                 title="Sell it, Search it, Buy it"
                 rel="noopener noreferrer"
