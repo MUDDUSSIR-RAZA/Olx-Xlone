@@ -31,7 +31,7 @@ const MainFront = () => {
             <div className="text-2xl font-semibold">Mobile Phones</div>
             <Link href={"/"} className="text-lightBlue flex font-semibold items-center">
               <div>
-                <Link href={"/"}>View more</Link>
+                 View more
               </div>
               <div className="fill-lightBlue -rotate-90 ml-2">
                 <Image
