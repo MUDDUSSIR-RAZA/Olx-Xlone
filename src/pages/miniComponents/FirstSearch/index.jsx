@@ -2,6 +2,9 @@ import Search from "@/pages/icons/Search";
 import Image from "next/image";
 
 const FirstSearch = () => {
+  const handleInputChange = () => {
+    
+  }
   return (
     <>
       <div className="border-2 border-dark rounded p-2.5 pr-4 bg-white focus-within:border-input">
@@ -16,7 +19,9 @@ const FirstSearch = () => {
             autoomplete="location-search"
             placeholder="Search city, area or locality"
             value="Pakistan"
-          ></input>
+            
+      onChange={handleInputChange}
+          />
 
           <div>
             <Image
