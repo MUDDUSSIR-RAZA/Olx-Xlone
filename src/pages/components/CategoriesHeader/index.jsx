@@ -4,8 +4,8 @@ import Link from "next/link";
 const CategoriesHeader = () => {
   return (
     <>
-      <div className="flex pl-24 items-center shadow p-3">
-        <div className="flex items-center mr-6">
+      <div className="flex pl-24 items-center shadow p-3 text-sm">
+        <div className="flex items-center mr-6 font-semibold">
           <div className="mr-2">
             <Link href={"#"}>All Categories</Link>
           </div>
