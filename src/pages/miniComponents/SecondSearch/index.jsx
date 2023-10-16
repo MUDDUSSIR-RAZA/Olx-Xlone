@@ -1,6 +1,9 @@
 import Search from "@/pages/icons/Search";
 
 const SecondSearch = () => {
+  const handleInputChange = () => {
+
+  }
   return (
     <>
       <div className="flex items-center">
@@ -15,6 +18,7 @@ const SecondSearch = () => {
                   value=""
                   placeholder="Find Cars, Mobile Phones and more..."
                   className="pr-100  focus:outline-none"
+                  onChange={handleInputChange}
                 />
               </div>
             </div>
