@@ -535,8 +535,6 @@ const MainFront = () => {
                   </div>
                 </div>
 
-                <div className="h-full w-7"></div>
-
               </div>
             </div>
           );
