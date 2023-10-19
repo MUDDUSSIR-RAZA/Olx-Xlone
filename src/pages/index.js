@@ -15,7 +15,7 @@ export default function Home() {
         <div>
           <FullHeader />
         </div>
-        <div className="mt-52">
+        <div>
           <SwipeBanner />
           <AllCategories />
           <MainFront />
