@@ -50,17 +50,6 @@ const MainFront = () => {
           image: "/olxMobileApp.webp",
           location: "Majeed SRE Karachi",
         },
-        {
-          id: "0689f53a-f384-444a-a01a-8770ed180385",
-          category: "Tablets",
-          adTitle: "ipad",
-          adDescription: "kch nahi",
-          adBrand: "apple",
-          adCondition: "good",
-          price: "Rs 100,000",
-          image: "/olxMobileApp.webp",
-          location: "Majeed SRE Karachi",
-        },
       ],
     },
     {
