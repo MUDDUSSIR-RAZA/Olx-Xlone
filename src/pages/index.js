@@ -5,6 +5,7 @@ import BottomImage from "./components/BottomImage";
 import FullHeader from "./combinedComponents/FullHeader";
 import FullFooter from "./combinedComponents/FullFooter";
 import MainFront from "./components/MainFront";
+import MyHeader from "./combinedComponents/MyHeader";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,7 +14,7 @@ export default function Home() {
     <>
       <div>
         <div>
-          <FullHeader />
+          <MyHeader />
         </div>
         <div>
           <SwipeBanner />
