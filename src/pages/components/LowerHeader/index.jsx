@@ -41,7 +41,7 @@ const LowerHeader = () => {
                 className="mr-1 font-weight: 600"
               />
               <span>
-                <b>SELL</b>{" "}
+                <b>SELL</b>
               </span>
             </div>
           </button>
