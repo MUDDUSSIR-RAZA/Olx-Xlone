@@ -358,7 +358,7 @@ const MainFront = () => {
         },
       ],
     },{
-      category: "Land & Plots",
+      category: "Tablets",
       posts: [
         {
           id: "0689f53a-f384-444a-a01a-8770ed180385",
