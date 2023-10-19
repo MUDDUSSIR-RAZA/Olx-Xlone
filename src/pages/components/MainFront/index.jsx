@@ -409,18 +409,7 @@ const MainFront = () => {
           price: "Rs 100,000",
           image: "/olxMobileApp.webp",
           location: "Majeed SRE Karachi",
-        },
-        {
-          id: "0689f53a-f384-444a-a01a-8770ed180385",
-          category: "Tablets",
-          adTitle: "ipad",
-          adDescription: "kch nahi",
-          adBrand: "apple",
-          adCondition: "good",
-          price: "Rs 100,000",
-          image: "/olxMobileApp.webp",
-          location: "Majeed SRE Karachi",
-        },
+        }
       ],
     },
   ];
@@ -455,11 +444,11 @@ const MainFront = () => {
   return (
     <>
       <div className="w-full">
-        {allPosts.map((p) => {
+        {allPosts.map((ap) => {
           return (
             <div className="w-87% h-96 mx-auto my-auto mb-5">
               <div className="flex justify-between mb-4">
-                <div className="text-2xl font-semibold">{p.category}</div>
+                <div className="text-2xl font-semibold">{ap.category}</div>
                 <Link
                   href={"/"}
                   className="text-lightBlue flex font-semibold items-center"
@@ -480,6 +469,10 @@ const MainFront = () => {
               </div>
 
               <div className="flex justify-between">
+
+                {ap.posts.map((p) => {
+                  return <>
+                  
                 <div className="w-80 h-80 flex flex-col justify-between border rounded-md">
                   <div className="border-b h-2/3">
                     <Image
@@ -508,6 +501,8 @@ const MainFront = () => {
                 </div>
 
                 <div className="h-full w-7"></div>
+                  </>
+                })}
 
               </div>
             </div>
