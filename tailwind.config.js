@@ -50,7 +50,7 @@ module.exports = {
       },spacing: {
         '450px': '600px',
       },maxWidth :{
-        '89%': '89%',
+        '85%': '85%',
         
       }
     },
