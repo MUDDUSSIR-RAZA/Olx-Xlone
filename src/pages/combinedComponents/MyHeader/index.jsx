@@ -9,7 +9,7 @@ import Image from "next/image";
 const MyHeader = () => {
   return (
     <>
-      <div className=" bg-headerBg">
+      <div className="fixed top-0 left-0 right-0 w-full z-50 bg-headerBg">
         <div className="flex items-center max-w-85% mx-auto pt-3">
           <UpperHeaderOlx />
 
@@ -18,10 +18,10 @@ const MyHeader = () => {
           <Property />
         </div>
         <div className="py-5 flex items-center max-w-85% mx-auto justify-between">
-          <div className="mr-5 flex-1">
+          <div className="mr-5">
             <LowerHeaderOlx />
           </div>
-          <div className="flex justify-between flex-grow">
+          <div className="flex flex-1">
             <div >
               <FirstSearch />
             </div>
@@ -31,14 +31,14 @@ const MyHeader = () => {
             </div>
           </div>
 
-          <div className="mr-10 flex-1">
+          <div className="mr-10">
             <button className="border-b-2 border-dark">
               <span className="font-bold text-dark">Login</span>
             </button>
           </div>
 
           <div>
-            <button className="relative flex-1">
+            <button className="relative">
               <Image
                 alt="iconSellCompactBorder"
                 src={"/iconSellCompactBorder.svg"}
