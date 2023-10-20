@@ -2,28 +2,25 @@ import Search from "@/pages/icons/Search";
 import Image from "next/image";
 
 const FirstSearch = () => {
-  const handleInputChange = () => {
-    
-  }
+  const handleInputChange = () => {};
   return (
     <>
-      <div className="border-2 border-dark rounded p-2.5 pr-4 bg-white focus-within:border-input">
-        <div className="flex items-center">
-          <div className="mr-3">
+      <div className="h-full w-full">
+        <div className="border-2 border-dark rounded flex items-center  bg-white focus-within:border-input h-full">
+          <div className="ml-3">
             <Search length={"16"} />
           </div>
 
           <input
             spellCheck="false"
-            className="pr-5  focus:outline-none"
+            className="ml-3 w-full h-full focus:outline-none flex-1"
             autoomplete="location-search"
             placeholder="Search city, area or locality"
             value="Pakistan"
-            
-      onChange={handleInputChange}
+            onChange={handleInputChange}
           />
 
-          <div>
+          <div className="mr-3">
             <Image
               alt="iconArrowDown"
               src={"/iconArrowDown.svg"}
