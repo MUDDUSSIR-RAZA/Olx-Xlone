@@ -10,35 +10,35 @@ const MyHeader = () => {
   return (
     <>
       <div className=" bg-headerBg">
-        <div className="flex items-center max-w-89% mx-auto pt-3">
+        <div className="flex items-center max-w-85% mx-auto pt-3">
           <UpperHeaderOlx />
 
           <Motor />
 
           <Property />
         </div>
-        <div className="py-5 flex items-center max-w-89% mx-auto">
-          <div className="mr-5">
+        <div className="py-5 flex items-center max-w-85% mx-auto justify-between">
+          <div className="mr-5 flex-1">
             <LowerHeaderOlx />
           </div>
-          <div className="flex">
+          <div className="flex justify-between flex-grow">
             <div >
               <FirstSearch />
             </div>
 
-            <div>
+            <div className="ml-4 flex-1">
               <SecondSearch />
             </div>
           </div>
 
-          <div className="mr-10">
+          <div className="mr-10 flex-1">
             <button className="border-b-2 border-dark">
               <span className="font-bold text-dark">Login</span>
             </button>
           </div>
 
           <div>
-            <button className="relative">
+            <button className="relative flex-1">
               <Image
                 alt="iconSellCompactBorder"
                 src={"/iconSellCompactBorder.svg"}
