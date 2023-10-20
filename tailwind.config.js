@@ -41,6 +41,7 @@ module.exports = {
         "100px": "100px",
         "400px": "400px",
         "87%" :"87%",
+        "95%" :"95%",
         '450px': '450px',
       },
       backgroundImage: {
