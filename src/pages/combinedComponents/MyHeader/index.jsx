@@ -22,7 +22,7 @@ const MyHeader = () => {
             <LowerHeaderOlx />
           </div>
           <div className="flex flex-1">
-            <div >
+            <div>
               <FirstSearch />
             </div>
 
@@ -31,9 +31,9 @@ const MyHeader = () => {
             </div>
           </div>
 
-          <div className="mr-10">
+          <div className="mr-5 ml-5">
             <button className="border-b-2 border-dark">
-              <span className="font-bold text-dark">Login</span>
+              <span className="font-bold text-dark ">Login</span>
             </button>
           </div>
 
