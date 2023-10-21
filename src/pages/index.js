@@ -2,10 +2,10 @@ import { Inter } from "next/font/google";
 import SwipeBanner from "./components/SwipeBanner";
 import AllCategories from "./components/AllCategories";
 import BottomImage from "./components/BottomImage";
-import FullHeader from "./combinedComponents/FullHeader";
 import FullFooter from "./combinedComponents/FullFooter";
 import MainFront from "./components/MainFront";
 import MyHeader from "./combinedComponents/MyHeader";
+import CategoriesHeader from "./components/CategoriesHeader";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +16,8 @@ export default function Home() {
         <div>
           <MyHeader />
         </div>
-        <div>
+        <div className="mt-32">
+          <CategoriesHeader />
           <SwipeBanner />
           <AllCategories />
           <MainFront />
