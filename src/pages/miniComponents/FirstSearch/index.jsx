@@ -5,7 +5,7 @@ const FirstSearch = () => {
   const handleInputChange = () => {};
   return (
     <>
-      <div className="h-full w-full">
+      <div className="h-full min-w-90px">
         <div className="border-2 border-dark rounded flex items-center  bg-white focus-within:border-input h-full">
           <div className="ml-3">
             <Search length={"16"} />
