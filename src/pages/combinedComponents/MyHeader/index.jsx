@@ -38,7 +38,7 @@ const MyHeader = () => {
           </div>
 
           <div>
-            <button className="relative">
+            <button className="relative flex items-center justify-center bg-white border-4 border-grey rounded-full hover:shadow-sm hover:scale-105 transform transition duration-50">
               <Image
                 alt="iconSellCompactBorder"
                 src={"/iconSellCompactBorder.svg"}
