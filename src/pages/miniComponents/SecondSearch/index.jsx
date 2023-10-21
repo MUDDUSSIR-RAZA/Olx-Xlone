@@ -6,7 +6,7 @@ const SecondSearch = () => {
   }
   return (
     <>
-      <div className="flex items-center h-full w-95%">
+      <div className="flex items-center h-full min-w-150px w-95%">
         {/* <div className="border-t-2 border-b-2 border-l-2 border-dark rounded-l p-2.5 pr-4 bg-white focus-within:border-input"> */}
         <div className="focus-within:border-input bg-white border-dark rounded-l border-t-2 border-b-2 border-l-2 h-full w-full">
           <div aria-label="Search input " className="flex items-center w-full h-full">
