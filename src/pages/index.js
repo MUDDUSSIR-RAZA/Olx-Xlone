@@ -16,7 +16,7 @@ export default function Home() {
         <div>
           <MyHeader />
         </div>
-        <div className="mt-32">
+        <div className="mt-32 w-full">
           <CategoriesHeader />
           <SwipeBanner />
           <AllCategories />
