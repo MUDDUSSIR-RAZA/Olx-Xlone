@@ -6,7 +6,7 @@ const CategoriesHeader = () => {
     <>
       <div className="flex items-center shadow p-3 text-sm">
         <div className="flex items-center w-87% mx-auto pt-3">
-          {/* <div className="flex items-center mr-6 font-semibold"> */}
+          <div className="flex items-center mr-6 font-semibold">
             <div className="mr-2">
               <Link href={"#"}>All Categories</Link>
             </div>
