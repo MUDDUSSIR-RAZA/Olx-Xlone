@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <div>
-        <div>
+        {/* <div>
           <MyHeader />
         </div>
         <div className="mt-32 w-full">
@@ -21,9 +21,9 @@ export default function Home() {
           <SwipeBanner />
           <AllCategories />
           <MainFront />
-          <BottomImage />
+          <BottomImage /> */}
           <FullFooter />
-        </div>
+        {/* </div> */}
       </div>
     </>
   );
