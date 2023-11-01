@@ -7,7 +7,7 @@ const UpperFooter = () => {
       <div className="w-full h-auto bg-grey">
         <hr className="text-dark" />
         <div className="w-11/12 h-4/5 mx-auto flex bg-grey">
-          <div className="mx-8 mt-6 mb-14 w-96">
+          <div className="w-">
             <div className="text-dark font-black text-sm">
               POPULAR CATEGORIES
             </div>
