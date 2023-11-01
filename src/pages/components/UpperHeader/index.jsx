@@ -2,7 +2,6 @@ import Property from "@/pages/icons/Property";
 import UpperHeaderOlx from "@/pages/icons/UpperHeaderOlx";
 import Motor from "@/pages/icons/Motors";
 import { Inter } from "next/font/google";
-import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
